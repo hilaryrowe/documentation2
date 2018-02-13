@@ -1,6 +1,6 @@
 # Summary
 
-* [Engagement Overview](README.md)
+* [Overview: Building Data Extraction Pipelines](README.md)
 * [Basic Concepts in FactoryTX](basic-concepts-in-factorytx.md)
 * [Understanding the FactoryTX Interface](understanding-the-factorytx-interface.md)
 * [Configurations in FactoryTX](configurations-in-factorytx.md)
