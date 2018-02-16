@@ -47,5 +47,7 @@ On the Configuration screen, you can also do the following:
 
 ## Viewing Logs {#docs-internal-guid-92afc525-66df-d9a2-14de-6f2e54f61d02}
 
-On the Log screen, you can:
+On the Log screen, you can view a list of the FTX logs as they are being created.
+
+![](/images/UI Full Log Screen w Lines.png)
 
