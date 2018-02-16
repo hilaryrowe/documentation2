@@ -1,30 +1,22 @@
-# Running on an Intel NUC
+# Running a Virtual Device Using QEMU
 
-**NOTE: **This procedure requires a USB drive.
+If you need to install QEMU for your platform, go here for more information:[https://www.qemu.org/download/](https://www.qemu.org/download/)
 
-You will need to burn the image file that you downloaded from resinOS to a USB drive so you can use it on the NUC. To do this, you should use Etcher, an image burner tool by [Resin.io](http://resin.io), to flash installable images onto USB.
+QEMU is a lightweight virtualization service. We recommend QEMU for the development or testing of FactoryTX, but for production deployments, we recommend using VMWare or VirtualBox.
 
-**To run on a Intel NUC:**
+**To run a virtual device using QEMU:**
 
-1. Download and install Etcher at [http://etcher.io](http://etcher.io), and then follow the steps in the Etcher interface to burn the resinOS image \(i.e., &lt;your\_image\_filename.img&gt;\) onto a USB drive.
+1. Install qemu-kvm and Virtual Machine Manager \(AKA, virt-manager\), the tool that allows you to use a graphical interface to interact with KVM. Go to:[https://help.ubuntu.com/community/KVM/VirtManager](https://help.ubuntu.com/community/KVM/VirtManager)
 
-2. Insert the USB key and power up the NUC.
+2. In virt-manager, select Import Existing Disk Image &gt; Browse &gt; Browse Local to locate the Resin \*.img file \(raw file format\).
 
-3. On the Add a New Device page, follow the instructions.
+3. Accept the default memory and CPU settings.
 
-4. If resinOS cannot boot from the correct boot partition, reset the BIOS to the default, and then check the following items in the BIOS:
+4. Define the VM name, and then clickFinish.
 
-   * Boot option:
+5. Go to the Resin.io Applications page and verify that the new VM device is added.
 
-   * Hard drive BBS priority:
 
-   * Boot override:
-
-5. Go to the Resin.io Applications page and verify that the new NUC device is added. You should see an image similar to:
-
-6. When the device is powered down, and on the Applications page the Status is Post Provisioning, remove the USB drive and press the NUC power button.
-
-7. The status will change to Online or Downloading. Wait for the status to be Online.
 
 
 
