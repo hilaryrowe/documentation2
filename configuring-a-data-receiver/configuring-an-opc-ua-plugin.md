@@ -12,7 +12,3 @@ For more information about the OPC UA paradigm, go [here](https://en.wikipedia.o
 
 ![](/configuring-a-data-receiver/Full FTX OPC UA Config File Code Sample w Lines.png)
 
-
-
-
-

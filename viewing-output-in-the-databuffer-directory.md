@@ -11,23 +11,24 @@ You may want to be able to copy files from that directory to a local system, or 
 **If you are using SSH, do this to view output in the databuffer directory:**
 
 1. Use Resin or direct SSH to get shell access.
-2. Run: `cd /var/spool/sightmachine/factorytx/databuffer`
-3. To list file names, run: `ls`
+2. Run: **`cd /var/spool/sightmachine/factorytx/databuffer`**
+3. To list file names, run: **`ls`**
 4. Run:
-   `python -m json.tool <filename>`
+   **`python -m json.tool <filename>`**
 
 **If you are remote, do this to view output in the databuffer directory:**
 
 1. Use an SSH copy tool such as WinSCP or Fugu.
-2. SSH copy the file locally from:   
+2. SSH copy the file locally from:  
    /var/spool/sightmachine/factorytx/databuffer  
-   **NOTE: **If you are using a code editor such as Atom, you may want to install a JSON-formatting plugin. Good resources include the following:
 
-   * [https://atom.io/packages/pretty-json](https://atom.io/packages/pretty-json)
+**NOTE: **If you are using a code editor such as Atom, you may want to install a JSON-formatting plugin. Good resources include the following:
 
-   * [https://github.com/dzhibas/SublimePrettyJson](https://github.com/dzhibas/SublimePrettyJson)
+* [https://atom.io/packages/pretty-json](https://atom.io/packages/pretty-json)
 
-   Or in your browser, go to: [http://jsonprettyprint.com](http://jsonprettyprint.com)
+* [https://github.com/dzhibas/SublimePrettyJson](https://github.com/dzhibas/SublimePrettyJson)
+
+Or in your browser, go to: [http://jsonprettyprint.com](http://jsonprettyprint.com)
 
 
 

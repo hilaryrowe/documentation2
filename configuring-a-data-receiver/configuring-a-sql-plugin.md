@@ -27,7 +27,7 @@ For example:
 
 ### Resetting the Cache.json File
 
-If you need to reset the database, you may want to adjust or delete thecache.jsonfile. 
+If you need to reset the database, you may want to adjust or delete the cache.json file, a file that we use to maintain state of progress for our SQL plugin.
 
 **&lt;insert snipped of example cache.json&gt;**
 
