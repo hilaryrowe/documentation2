@@ -10,21 +10,28 @@ You will need to burn the image file that you downloaded from resinOS to a USB d
 
 2. Insert the USB key and power up the NUC.
 
-3. On the Add a New Device page, follow the instructions.
+3. On the Add a New Device page, follow the instructions.  
+   ![](/tutorial-deploying-factorytx/Running on Intel NUC1.png)
 
 4. If resinOS cannot boot from the correct boot partition, reset the BIOS to the default, and then check the following items in the BIOS:
 
-   * Boot option:
+   * Boot option:  
+     ![](/tutorial-deploying-factorytx/Running on Intel NUC2.png)
 
-   * Hard drive BBS priority:
+   * Hard drive BBS priority:  
+     ![](/tutorial-deploying-factorytx/Running on Intel NUC3.png)
 
-   * Boot override:
+   * Boot override:  
+     ![](/tutorial-deploying-factorytx/Running on Intel NUC4.png)
 
-5. Go to the Resin.io Applications page and verify that the new NUC device is added. You should see an image similar to:
+5. Go to the Resin.io Applications page and verify that the new NUC device is added. You should see an image similar to:  
+   ![](/tutorial-deploying-factorytx/Running on Intel NUC5.png)
 
-6. When the device is powered down, and on the Applications page the Status is Post Provisioning, remove the USB drive and press the NUC power button.
+6. When the device is powered down, and on the Applications page the Status is Post Provisioning, remove the USB drive and press the NUC power button.  
+   ![](/tutorial-deploying-factorytx/Running on Intel NUC6.png)
 
-7. The status will change to Online or Downloading. Wait for the status to be Online.
+7. The status will change to Online or Downloading. Wait for the status to be Online.  
+   ![](/tutorial-deploying-factorytx/Running on Intel NUC7.png)
 
 
 
