@@ -44,27 +44,18 @@ When you open the FactoryTX tool for the first time, the skeleton of the source 
 
 **To set up a new data source in the FT configuration file:**
 
-1. In a Web browser, navigate to the IP address of the NUC device or Virtual Machine. This information is available in the Resin.io interface. You want to connect to port 9080. For example: http://IP\_ADDRESS:9080
+1. In a Web browser, navigate to the IP address of the NUC device or Virtual Machine. This information is available in the Resin.io interface. You want to connect to port 9080. For example: [http://IP\_ADDRESS:9080](http://IP_ADDRESS:9080)
 
-2. On the Configuration tab, in the Source Code window, view the code.
+2. On the Configuration tab, in the Configuration window, view the current configuration.
 
-3. In the data\_receiver section, add the appropriate parameters for your new data source:
+3. For each data receiver in the data\_receiver section, you will need to add a new block of JSON with the appropriate parameters for your new data source.  
+   For more details on parameters, see the Data Receiver section in [Configurations in FactoryTX](/configurations-in-factorytx.md).
 
-   * connections
+## Running the New Data Receiver and Looking at the Output
 
-   * parsers
+After you have a data receiver connected, you need to test the connection and look at the output. To do this click the **Play** button on the side of the interface.
 
-   * protocol
-
-   * data\_receiver\_name
-
-   * streams: Including file\_filter, stream\_type, and asset
-
-For more details on each parameter, see the Data Receiver section in [Configurations in FactoryTX](/configurations-in-factorytx.md).
-
-## Setting Up a Transform
-
-You will need to customize the transform section as well. For more details on the parameters, see the Transforms section in [Configurations in FactoryTX](/configurations-in-factorytx.md).
+**&lt;Add Screenshot.&gt;**
 
 ## Setting Up a Transmit with an API Key
 
@@ -80,14 +71,37 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:    
+   **Condensed:      
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:    
+   Expanded:      
    **![](/images/UI Config Code Expanded w Lines.png)
 
-3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter.
+3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
+   `"data_transmit" = [`
 
-## Verifying the Configuration File in the Sight Machine Interface
+     `     {`
 
-**&lt;TBD&gt;**
+     `         "API_key_ID": "factory_5a676700398221437bce4cc337@sightmachine_ftx.com",`
+
+     `         "max_request_records": "3000",`
+
+     `         "poll_interval": "30",`
+
+     `         "base_url": "https://demo.sightmachine.io",`
+
+     `         "timeout": "120",`
+
+     `         "max_request_size_bytes": "6000000",`
+
+     `         "API_key": "BwH6AxSKqibgUbSK26-oODVKHM09K0sQIZ5JPoe8YRQ",`
+
+     `         "transmit_name": "remotedatapost"`
+
+   `     }`
+
+   `]`
+
+## Verifying the Configuration File in the Sight Machine Interface and Deploying
+
+After you have made a change, you should save your configuration. If your configuration has errors, ** &lt;TBD&gt;**
 
