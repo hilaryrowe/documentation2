@@ -8,8 +8,8 @@ You will need to convert the image file into a format that Oracle VirtualBox can
    **`qemu-img convert <your_image_filename.img> -O vdi outputImage.vdi`**
 
 2. Resize the .vdi file to use appropriate space:  
-   **`vboxmanage modifyhd <your_image_filename.vdi> --resize 2288`**  
-  
+   `vboxmanage modifyhd <your_image_filename.vdi> --resize 2288`
+
    **NOTE: **The last parameter is space in MB; this is ~2GB.
 
 3. Start Oracle VirtualBox.
