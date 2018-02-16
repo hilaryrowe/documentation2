@@ -2,13 +2,13 @@
 
 Resin devices allow you to view of logs from the device, as well as SSH into the device, to debug.
 
-There are also command-line interface \(CLI\) tools available if you prefer not to use the web interface. For more information, see: [https://docs.resin.io/tools/cli/](https://docs.resin.io/tools/cli/)
+There are also command-line interface \(CLI\) tools available if you prefer not to use the Web interface. For more information, see: [https://docs.resin.io/tools/cli/](https://docs.resin.io/tools/cli/)
 
 **NOTE: **For Resin CLI to use SSH and logs, you will need to edit your SSH configuration to have the following directive:
 
 `Host *.resindevice.io`
 
-  ` IdentityFile ~/.ssh/SSH_IDENTITY_KEY_FOR_RESIN`
+`IdentityFile ~/.ssh/SSH_IDENTITY_KEY_FOR_RESIN`
 
 **To set up remote debugging:**
 

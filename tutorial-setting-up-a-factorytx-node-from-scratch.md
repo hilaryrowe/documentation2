@@ -4,17 +4,17 @@
 
 After you [deploy Factory TX](/tutorial-deploying-factorytx.md), you can set up a FactoryTX node from scratch, which involves the following procedures:
 
-* Looking at the data source
+* Connecting to a data source and confirming the authentication credentials and how to request the data
 
-* Setting up a new data source in the FTX configuration file
+* Setting up a new Data Receiver in the FTX configuration file
 
-* Setting up a transform
+* Running the new Data Receiver and looking at the output
 
 * Setting up a transmit with an API key
 
-* Verifying the configuration in the Sight Machine interface
+* Verifying the configuration in the Sight Machine interface and deploying
 
-## Looking at the Data Source {#docs-internal-guid-e2b35c38-6c14-7e9c-89d9-e5d535287fba}
+## Connecting to a Data Source {#docs-internal-guid-e2b35c38-6c14-7e9c-89d9-e5d535287fba}
 
 Before you can pull data from a data source, you need to look at the machine and gather some information, including which protocol is being used \(file-based, SQL, OPC UA, etc.\) and the machine/asset name.
 
@@ -36,13 +36,15 @@ Before you can configure FactoryTX, make sure to test each data source to which 
 
 * List of fields/tags/files that you want to retrieve
 
-## Setting Up a New Data Source in the FTX Configuration File
+In each case, you should be able to access the data that you want to use FactoryTX to transmit to Sight Machine before configuring each Data Receiver. This will make the connection process as straightforward as possible.
+
+## Setting Up a New Data Receiver in the FTX Configuration File
 
 When you open the FactoryTX tool for the first time, the skeleton of the source code will be available. You will need to fill in the missing parameters for the new data source.
 
 **To set up a new data source in the FT configuration file:**
 
-1. In a web browser, navigate to the **&lt;FTX URL&gt;**.
+1. In a Web browser, navigate to the IP address of the NUC device or Virtual Machine. This information is available in the Resin.io interface. You want to connect to port 9080. For example: http://IP\_ADDRESS:9080
 
 2. On the Configuration tab, in the Source Code window, view the code.
 
@@ -78,9 +80,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:  
+   **Condensed:    
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:  
+   Expanded:    
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter.
@@ -88,6 +90,4 @@ You must set up the transmit information for the particular customer to the data
 ## Verifying the Configuration File in the Sight Machine Interface
 
 **&lt;TBD&gt;**
-
-
 
