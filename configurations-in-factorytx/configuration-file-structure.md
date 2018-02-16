@@ -25,7 +25,9 @@ Note the following parameters:
 
 ![](/configurations-in-factorytx/Data Receiver Section Sample Color Coded Parameters.png)
 
-Each data receiver may have additional requirements, depending on its protocol. For full details and complete configuration file samples for the various protocols, see the following sections in [Configuring a Data Receiver](/configuring-a-data-receiver.md):
+Each data receiver may have additional requirements, depending on its protocol. For full details and complete configuration file samples for the various protocols, see the following sections inFactoryTX currently only supports the set\_timestamp transform, which you can use as-is or adjust slightly. If the data has multiple timestamps or date/time fields, this transform helps you identify which one will be used in the data modeling later.
+
+You can also use the Custom Pandas transform to write your own transform with any supported Pandas actions [Configuring a Data Receiver](/configuring-a-data-receiver.md):
 
 * Configuring a SQL Plugin
 
@@ -78,8 +80,4 @@ To access the API keys in the AI Data Pipeline, go to **Models** &gt; **Location
 The following is a brief sample of the data\_transmit section of code in the FTX configuration file.
 
 ![](/configurations-in-factorytx/Data Transmit Section Sample.png)
-
-
-
-
 
