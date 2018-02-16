@@ -14,7 +14,7 @@ The graphic below shows how FTX can be installed on edge devices to pull data fr
 
 ![](/tutorial-deploying-factorytx/FTX Installation Flow w Lines.png)
 
-Follow the steps in the next sections to complete the deployment.
+Follow the steps in the next sections to complete the FactoryTX deployment.
 
 ## Determining the Edge Device Target
 
