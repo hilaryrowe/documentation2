@@ -1,6 +1,6 @@
 # Finding Additional Resources
 
-This tutorial has showed you how to set up FTX in Resin.io.
+This tutorial has showed you how to set up FactoryTX in Resin.io.
 
 There are a number of helpful resources available, should you have any additional questions.
 

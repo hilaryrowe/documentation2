@@ -1,4 +1,4 @@
-# Connecting to the User Interface
+# Connecting to the FactoryTX User Interface
 
 At this point in the deployment process, you should be able to connect to the user interface. This will enable the direct configuration of the system. To access this, you will need a connection to the device’s local network.
 

@@ -4,7 +4,7 @@ The FactoryTX user interface requires a user name and password. You can either d
 
 **To set login credentials:**
 
-1. Go to the device Summary page, and then select **Environment Variables**.  
+1. Go to the device Summary page, and then on the left, click **Environment Variables**.  
    ![](/tutorial-deploying-factorytx/Setting Login Credentials1 w Lines.png)
 
 2. To disable authentication, on the Device Environment Variables page, do the following:
@@ -20,8 +20,9 @@ The FactoryTX user interface requires a user name and password. You can either d
 
    * Add the variable **FTX\_USERNAME** \(the string to be used as the user name\).
 
-   * Add the variable **FTX\_PW\_HASH** \(sha256 hash of your password string\).  
-     **NOTE:** If you want admin/admin as your user name and password, do the following:
+   * Add the variable **FTX\_PW\_HASH** \(sha256 hash of your password string\).
+
+   * **NOTE:** If you want admin/admin as your user name and password, do the following:
 
      * Set FTX\_USERNAME to: **admin**
 
@@ -31,13 +32,13 @@ The FactoryTX user interface requires a user name and password. You can either d
 
 4. To create a hash for your custom password, use this Python method:
 
-   `$ python`
+   **`$ python`**
 
-   `>>> from werkzeug.security import generate_password_hash`
+   **`>>> from werkzeug.security import generate_password_hash`**
 
-   `>>> generate_password_hash('custom_password')`
+   **`>>> generate_password_hash('custom_password')`**
 
-   `'pbkdf2:sha256:50000$Y7Ig4Cbd$ae385722a29068a64ac8d06dfa93dc0872c0b995f62ac6e71c87eb5531baed97'`
+   **`'pbkdf2:sha256:50000$Y7Ig4Cbd$ae385722a29068a64ac8d06dfa93dc0872c0b995f62ac6e71c87eb5531baed97'`**
 
 
 

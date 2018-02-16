@@ -1,4 +1,4 @@
-# Setting Up a Proxy Connection \(Draft\)
+# Setting Up a Proxy Connection
 
 You can bring the Resin container online using a proxy.
 
@@ -27,8 +27,7 @@ You can bring the Resin container online using a proxy.
    * `password = "<PASSWORD FOR PROXY>";`  
      This is optional.
 
-4. If you have a list of IPs that you can reach without the proxy \(including your internal IPs\), add them 1 line per file to a file named:  
-   “/mnt/boot/system-proxy/no\_proxy”
+4. If you have a list of IPs that you can reach without the proxy \(including your internal IPs\), add them 1 line per file to a file named: “/mnt/boot/system-proxy/no\_proxy”
 
 
 
