@@ -18,7 +18,7 @@ The conversion process involves formatting and renaming fields. The core of FTXâ
 
 ## Understanding the Schema {#docs-internal-guid-dfa27dc4-6771-429c-99ac-47c461e41cd6}
 
-The following table lists the schema that we use when we transmit data from plant floor assets.
+The following lists the schema that we use to transmit data from plant floor assets:
 
 ![](/images/Transmit Schema Table.png)
 
