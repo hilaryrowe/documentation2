@@ -1,18 +1,26 @@
-# Running on an Intel NUC \(Requires USB Drive\)
+# Running a Virtual Device Using Oracle VirtualBox
 
-You will need to burn the image file that you downloaded from resinOS to a USB drive so you can use it on the NUC. To do this, you should use Etcher, an image burner tool by[ Resin.io](http://resin.io), to flash installable images onto USB.
+You will need to convert the image file into a format that Oracle VirtualBox can use.
 
-**To run on a Intel NUC:**
+**To spin up for Oracle VirtualBox:**
 
-1. Download and install Etcher at [http://etcher.io](http://etcher.io), and then follow the steps in the Etcher interface to burn the resinOS image \(i.e., &lt;your\_image\_filename.img&gt;\) onto a USB drive.
+1. Use the .img file and convert it to VMDK:  
+   qemu-img convert &lt;your\_image\_filename.img&gt; -O vdi outputImage.vdi
 
-2. Insert the USB key and power up the NUC.
+2. Resize the .vdi file to use appropriate space:  
+   vboxmanage modifyhd &lt;your\_image\_filename.vdi&gt; --resize 2288
 
-3. Follow the instructions on the Add a New Device page.  
-   ![](/tutorial-deploying-factorytx/Running on Intel NUC1 w Lines.png)
+   NOTE:The last parameter is space in MB; this is ~2GB.
 
-4. Go to the Resin.io Applications page and verify that the new NUC device is added. You should see an image similar to:  
-   ![](/tutorial-deploying-factorytx/Running on Intel NUC2 w Lines.png)
+3. Start Oracle VirtualBox.
 
+4. Follow the instructions and use Linux Ubuntu 64-bit.
 
+5. Set the memory size to 1024MB.
+
+6. Use the existing .vdi file as your virtual hard disk.
+
+Go to the
+
+Resin.io Applications page and verify that the new VM device is added.
 

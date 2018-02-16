@@ -2,7 +2,7 @@
 
 After you create an application, you must create a device running that application.
 
-To create a new device:
+**To create a new device:**
 
 1. On your new application page, click **Add Device**.  
    ![](/tutorial-deploying-factorytx/Creating a Device1.png)

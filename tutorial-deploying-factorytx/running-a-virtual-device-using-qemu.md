@@ -1,23 +1,30 @@
-# Running a Virtual Device Using QEMU
+# Running on an Intel NUC
 
-If you need to install QEMU for your platform, go here for more information: [https://www.qemu.org/download/](https://www.qemu.org/download/)
+**NOTE: **This procedure requires a USB drive.
 
-QEMU is a lightweight virtualization service. We recommend QEMU for the development or testing of FactoryTX, but for production deployments, we recommend using VMWare or VirtualBox.
+You will need to burn the image file that you downloaded from resinOS to a USB drive so you can use it on the NUC. To do this, you should use Etcher, an image burner tool by [Resin.io](http://resin.io), to flash installable images onto USB.
 
-To run a virtual device using QEMU:
+**To run on a Intel NUC:**
 
-1. Run the following to start the image:
+1. Download and install Etcher at [http://etcher.io](http://etcher.io), and then follow the steps in the Etcher interface to burn the resinOS image \(i.e., &lt;your\_image\_filename.img&gt;\) onto a USB drive.
 
-   * On Linux systems with KVM support:  
-     **`qemu-system-x86_64 –drive file=<your_image_filename.img>,media=disk,cache=none,format=raw –net nic,model=virtio –net user –m 512 –nographic –machine type=pc,accel=kvm –smp 4 –cpu host`**
+2. Insert the USB key and power up the NUC.
 
-   * On Linux systems without KVM support:  
-     **`qemu-system-x86_64 –drive file=<your_image_filename.img>,media=disk,cache=none,format=raw –net nic,model=virtio –net user –m 512 –nographic –machine type=pc –smp 4 –cpu host`**
+3. On the Add a New Device page, follow the instructions.
 
-   * On Windows or MacOSX systems:  
-     **`qemu-system-x86_64 -drive file=<your_image_filename.img>,media=disk,cache=none,format=raw -net nic,model=virtio -net user -m 512 -nographic -machine type=pc -smp 2`**
+4. If resinOS cannot boot from the correct boot partition, reset the BIOS to the default, and then check the following items in the BIOS:
 
-2. Your device should appear in your application dashboard with a few minutes.
+   * Boot option:
+
+   * Hard drive BBS priority:
+
+   * Boot override:
+
+5. Go to the Resin.io Applications page and verify that the new NUC device is added. You should see an image similar to:
+
+6. When the device is powered down, and on the Applications page the Status is Post Provisioning, remove the USB drive and press the NUC power button.
+
+7. The status will change to Online or Downloading. Wait for the status to be Online.
 
 
 
