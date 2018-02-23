@@ -1,18 +1,18 @@
 # Understanding the FactoryTX Interface {#docs-internal-guid-92afc525-66cc-fd30-3c17-d9363746a63c}
 
-The FactoryTX interface provides a console where you can view, edit, and save changes to the three sections of the configuration file source code:
+The FactoryTX interface provides a way to view, edit, and save changes to the three sections of the configuration file source code:
 
-* Data receiver
+* Data Receiver
 
 * Transforms
 
-* Data transmit
+* Data Transmit
 
 For more details about those three elements, see [Configurations in FactoryTX](/configurations-in-factorytx.md).
 
 ## Editing the Configuration
 
-In the FTX console, on the Configuration screen, you can see the FTX configuration file code as well as access other features.
+The Configuration section of FactoryTX allows you to view the FTX configuration file, as well as access other features.
 
 ![](/images/UI Full Configuration Screen w Lines.png)
 
