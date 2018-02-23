@@ -18,31 +18,31 @@ The Configuration section of FactoryTX allows you to view the FTX configuration 
 
 On the Configuration screen, you can also do the following:
 
-* In the upper-left, pause and resume services as necessary.  
+* Stop and start services as necessary.  
   ![](/images/UI Config Started w Lines.png)  
   ![](/images/UI Config Stopped w Lines.png)
 
-* On the left, check the system status of CPU, memory, or disk usage.  
+* Check the status of CPU, memory, or disk usage.  
   ![](/images/UI Config Usage w Lines.png)
 
-* In the upper-right toolbar, fold and unfold the code viewing window.  
+* Fold and unfold the code viewing window.  
   ![](/images/UI Config Fold w Lines.png)  
   ![](/images/UI Config Unfold w Lines.png)
 
-* In the upper-right toolbar, launch a search. You can run wildcard and regex searches.  
+* Launch a search. You can run wildcard and regex searches.  
   ![](/images/UI Config Search w Lines.png)
 
-* In the upper-right, use the shortcut links to jump to the data\_receiver, data\_transmit, or transforms section of the code.  
+* Use the navigation links to jump to the data\_receiver, data\_transmit, or transforms section of the code.  
   ![](/images/UI Config Jump To w Lines.png)
 
-* If you have any errors, an indicator appears both on the left side of the code line in question, and in the lower-right corner.  
+* If you have any errors, indicators will appear on the screen.  
   ![](/images/UI Config Errors w Lines.png)  
-  Click the lower error link to open the error console, which will list all errors currently in the code.  
-  **NOTE: **You cannot Submit until you clear all errors.  
+  Click the error message link to open the error console, which lists all errors currently in the code.  
+  **NOTE: **You cannot Submit code changes until you clear all errors.  
   ![](/images/UI Config Error Console w Lines.png)
 
-* In the lower-right, save and submit changes.  
-  **NOTE: **The Submit button will be disabled if you have any errors in the code or if you have not made any changes.  
+* Click **Submit** to submit configuration changes.  
+  **NOTE: **The Submit button will remain disabled as long as no changes have been made to the configuration, or if it contains any errors.  
   ![](/images/UI Config Submit w Lines.png)
 
 ## Viewing Logs {#docs-internal-guid-92afc525-66df-d9a2-14de-6f2e54f61d02}
