@@ -8,7 +8,7 @@ After you [deploy Factory TX](/tutorial-deploying-factorytx.md), you can set up 
 
 * Running the new Data Receiver and looking at the output
 
-* Creating a transmit with an API key
+* Creating a new transmit with an API key
 
 * Verifying the configuration in the Sight Machine interface and deploying
 
@@ -55,11 +55,11 @@ After you have a data receiver connected, you need to test the connection and lo
 
 ![](/images/Running New Data Recevier Play Button.png)
 
-## Creating a Transmit with an API Key
+## Creating a New Transmit with an API Key
 
 You must set up the transmit information for the particular customer to the data flows to Sight Machine properly. For more information, see the Data Transmit section in [Configurations in FactoryTX](/configurations-in-factorytx.md).
 
-**To create a transmit with an API key:**
+**To create a new transmit with an API key:**
 
 1. In the Sight Machine platform, in the AI Data Pipeline, go to **Models** &gt; **Location**, and then under FactoryTX API Credentials, copy both of the following:
 
@@ -69,9 +69,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:            
+   **Condensed:              
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:            
+   Expanded:              
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
