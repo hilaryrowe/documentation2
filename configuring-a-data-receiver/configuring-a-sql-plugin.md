@@ -4,7 +4,7 @@ The customer may have machine data that is already being aggregated into a SQL d
 
 ## SQL FTX Configuration File Sample
 
-&lt;**Need from Harry/Ziyad.&gt;**
+![](/configuring-a-data-receiver/Full FTX SQL Config File Code Sample w Lines.png)
 
 ## Creating a Polling Query and Adding Keywords
 
