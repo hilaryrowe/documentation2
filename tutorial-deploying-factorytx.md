@@ -22,5 +22,5 @@ You must specify if the target is an appliance or a VM. This is based solely on 
 
 ## Logging In to Resin
 
-Browse to [https://resin.io/](https://resin.io/). You can create a number of devices using a free account linked to your Google or GitHub account.
+Browse to [https://resin.io/](https://resin.io/). You can log in using a free account that you create, or by linking to your Google or GitHub account. We recommend that each site create a user that individuals can be added to as collaborators.
 
