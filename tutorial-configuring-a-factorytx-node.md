@@ -1,14 +1,14 @@
-# Tutorial: Configuring a FactoryTX Node from Scratch
+# Tutorial: Configuring a FactoryTX Node
 
 After you [deploy Factory TX](/tutorial-deploying-factorytx.md), you can set up a FactoryTX node from scratch, which involves the following procedures:
 
 * Connecting to a data source and confirming the authentication credentials and how to request the data
 
-* Setting up a new Data Receiver in the FTX configuration file
+* Creating a new Data Receiver in the FTX configuration file
 
 * Running the new Data Receiver and looking at the output
 
-* Setting up a transmit with an API key
+* Creating a transmit with an API key
 
 * Verifying the configuration in the Sight Machine interface and deploying
 
@@ -36,11 +36,11 @@ Before you can configure FactoryTX, make sure to test each data source to which 
 
 In each case, you should be able to access the data that you want to use FactoryTX to transmit to Sight Machine before configuring each Data Receiver. This will make the connection process as straightforward as possible.
 
-## Setting Up a New Data Receiver in the FTX Configuration File
+## Creating a New Data Receiver in the FTX Configuration File
 
 When you open the FactoryTX tool for the first time, the skeleton of the source code will be available. You will need to fill in the missing parameters for the new data source.
 
-**To set up a new data source in the FT configuration file:**
+**To create a new data source in the FT configuration file:**
 
 1. In a Web browser, navigate to the IP address of the NUC device or Virtual Machine. This information is available in the Resin.io interface. You want to connect to port 8090. For example: [http://IP\_ADDRESS:8090](http://IP_ADDRESS:8090)
 
@@ -51,15 +51,15 @@ When you open the FactoryTX tool for the first time, the skeleton of the source 
 
 ## Running the New Data Receiver and Looking at the Output
 
-After you have a data receiver connected, you need to test the connection and look at the output. To do this click the **Play** button on the side of the interface.
+After you have a data receiver connected, you need to test the connection and look at the output. To do this, click the **Play** button on the left side of the interface.
 
-**&lt;Add Screenshot.&gt;**
+![](/images/Running New Data Recevier Play Button.png)
 
-## Setting Up a Transmit with an API Key
+## Creating a Transmit with an API Key
 
 You must set up the transmit information for the particular customer to the data flows to Sight Machine properly. For more information, see the Data Transmit section in [Configurations in FactoryTX](/configurations-in-factorytx.md).
 
-**To set up a transmit with an API Key:**
+**To create a transmit with an API key:**
 
 1. In the Sight Machine platform, in the AI Data Pipeline, go to **Models** &gt; **Location**, and then under FactoryTX API Credentials, copy both of the following:
 
@@ -69,9 +69,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:          
+   **Condensed:            
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:          
+   Expanded:            
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
