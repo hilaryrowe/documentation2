@@ -24,5 +24,3 @@ If you do not have remote\_delete\_files enabled, you need to keep all files in 
 
 If you have remote\_delete\_files enabled, you can rotate files using a tool such as Logrotate.
 
-**&lt;May want to expand this section depending on sample.&gt;**
-
