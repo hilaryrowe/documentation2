@@ -25,11 +25,7 @@ For example:
   * **MS SQL Server:**  
     [https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/](https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/)
 
-### Resetting the Cache.json File
 
-If you need to reset the database, you may want to adjust or delete the cache.json file, a file that we use to maintain state of progress for our SQL plugin.
 
-**&lt;insert snipped of example cache.json&gt;**
 
-**&lt;Commands to delete json&gt;**
 
