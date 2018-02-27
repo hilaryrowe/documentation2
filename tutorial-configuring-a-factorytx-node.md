@@ -69,9 +69,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:              
+   **Condensed:                
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:              
+   Expanded:                
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
@@ -99,7 +99,7 @@ You must set up the transmit information for the particular customer to the data
 
    `]`
 
-## Verifying the Configuration File in the Sight Machine Interface and Deploying
 
-After you have made a change, you should save your configuration. If your configuration has errors, ** &lt;TBD&gt;**
+
+
 
