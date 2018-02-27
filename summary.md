@@ -23,7 +23,7 @@
   * [Setting Up Remote Debugging](tutorial-deploying-factorytx/setting-up-remote-debugging.md)
   * [Connecting to the FactoryTX User Interface](tutorial-deploying-factorytx/connecting-to-the-factorytx-user-interface.md)
   * [Finding Additional Resources](tutorial-deploying-factorytx/finding-additional-resources.md)
-* [Tutorial: Setting Up a FactoryTX Node from Scratch](tutorial-setting-up-a-factorytx-node-from-scratch.md)
+* [Tutorial: Configuring a FactoryTX Node](tutorial-setting-up-a-factorytx-node-from-scratch.md)
 * [Configuring a Data Receiver](configuring-a-data-receiver.md)
   * [Configuring a SQL Plugin](configuring-a-data-receiver/configuring-a-sql-plugin.md)
   * [Configuring an OPC UA Plugin](configuring-a-data-receiver/configuring-an-opc-ua-plugin.md)
