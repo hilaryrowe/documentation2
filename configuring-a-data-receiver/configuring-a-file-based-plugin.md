@@ -14,12 +14,6 @@ If you have remote\_delete\_files enabled, you can rotate files using a tool suc
 
 [https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read\_csv.html](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)
 
-## Files with Timestamps in Names/Extracting Data from File Name vs. Data
-
-Sometimes important information such as a timestamp is stored in the file name.
-
-**&lt;Nate to determine how that works now&gt;**
-
 ## Managing the Completed/Incoming Folder
 
 Before pandas.read\_csv is called, the file is copied locally to a temporary file.
