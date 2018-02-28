@@ -14,7 +14,7 @@ The SSLOG files consists of two sections:
 
 ## Converting Data into SSLOG Format {#docs-internal-guid-dfa27dc4-6770-f45b-ed31-787bc063e1c2}
 
-The conversion process involves formatting and renaming fields. The core of FTX’s functionality is taking in data in many different formats and producing a standardized, human-readable output. It is possible to take existing fields and map them to reserved keywords, which will make ETL configuration easier in the Sight Machine platform. Most of these can be set by simply naming the field in the plugin configuration or renaming it as part of a transform operation.
+The conversion process involves formatting and renaming fields. The core of FTX’s functionality is taking in data in many different formats and producing a standardized, human-readable output. It is possible to take existing fields and map them to reserved keywords, which will make Extract, Transform, and Load \(ETL\) configuration easier in the Sight Machine platform. Most of these can be set by simply naming the field in the plugin configuration or renaming it as part of a transform operation.
 
 ## Understanding the Schema {#docs-internal-guid-dfa27dc4-6771-429c-99ac-47c461e41cd6}
 
