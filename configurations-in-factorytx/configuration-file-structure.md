@@ -7,7 +7,7 @@ There are three sections of a FactoryTX configuration file:
 
 * **Transforms: **This section conditions data with any operation that takes a DataFrame as input, and returns a DataFrame as output. For example, set indexes, reorder data, generate new columns, rename columns, etc.
 
-* **Data Transmit: **This section sends the data to a cloud environment, or forwards to another edge device.
+* **Data Transmit: **This section sends the data to a cloud environment, or forwards it to another edge device.
 
 ## Data Receiver
 
