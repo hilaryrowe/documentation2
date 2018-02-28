@@ -14,7 +14,7 @@ For example:
 
 * Wherever possible, you want to use an index in your WHERE function to reduce load.
 
-* In order to see if you are using an index, you may want to test you query using the EXPLAIN function. Use these references:
+* In order to see if you are using an index, you may want to test your query using the EXPLAIN function. Use these references:
 
   * **PostgreSQL:**  
     [https://www.postgresql.org/docs/9.1/static/sql-explain.html](https://www.postgresql.org/docs/9.1/static/sql-explain.html)
@@ -24,8 +24,6 @@ For example:
 
   * **MS SQL Server:**  
     [https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/](https://www.red-gate.com/simple-talk/sql/performance/execution-plan-basics/)
-
-
 
 
 
