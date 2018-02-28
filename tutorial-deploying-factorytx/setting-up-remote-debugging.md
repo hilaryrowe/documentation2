@@ -15,7 +15,7 @@ There are also command-line interface \(CLI\) tools available if you prefer not 
 1. In Resin, click the name of a device in the list to select it.  
    ![](/tutorial-deploying-factorytx/Setting Up Remote Debugging1 w Lines.png)
 
-2. You can view the logs in the upper-right, or attach to the container in the lower-right.  
+2. You can view the logs in the upper-right, or under Terminal, attach to the container in the lower-right.  
    ![](/tutorial-deploying-factorytx/Setting Up Remote Debugging2 w Lines.png)
 
 
