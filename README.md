@@ -26,7 +26,7 @@ To build a data extraction pipeline, FactoryTX:
 
   * **Store and forward:** In the store and forward data transmission method, a device receives a complete message and temporarily stores it in a buffer before forwarding it to the final destination. This is useful in locations with network connectivity issues.
 
-* Contains a single configuration file. Typically, the version is controlled in GIT, an open-source version control system that tracks changes and stores file backups. The configuration file includes all credentials and configuration information.
+* Contains a single configuration file. Typically, the version is controlled in Git, an open-source version control system that tracks changes and stores file backups. The configuration file includes all credentials and configuration information.
 
 * Performs basic transforms on the data using Python Pandas. \(A transform is the manipulation of data inside FactoryTX’s built-in data pipeline.\)
 
