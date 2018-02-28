@@ -55,7 +55,7 @@ After you have a data receiver connected, you need to test the connection and lo
 
 ## Creating a New Transmit with an API Key
 
-You must set up the transmit information for the particular customer to the data flows to Sight Machine properly. For more information, see the Data Transmit section in [Configurations in FactoryTX](/configurations-in-factorytx.md).
+You must set up the transmit information for the particular customer so the data flows to Sight Machine properly. For more information, see the Data Transmit section in [Configurations in FactoryTX](/configurations-in-factorytx.md).
 
 **To create a new transmit with an API key:**
 
@@ -67,9 +67,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:                          
+   **Condensed:                            
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:                          
+   Expanded:                            
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
