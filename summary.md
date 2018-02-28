@@ -27,5 +27,4 @@
   * [Configuring a SQL Plugin](configuring-a-data-receiver/configuring-a-sql-plugin.md)
   * [Configuring an OPC UA Plugin](configuring-a-data-receiver/configuring-an-opc-ua-plugin.md)
   * [Configuring a File-Based Plugin](configuring-a-data-receiver/configuring-a-file-based-plugin.md)
-* [Viewing Output in the Databuffer Directory](viewing-output-in-the-databuffer-directory.md)
 

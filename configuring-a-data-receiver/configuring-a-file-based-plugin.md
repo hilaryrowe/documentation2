@@ -8,7 +8,7 @@ The customer may have data from local machines. A file-based plugin could be a C
 
 ## Calling pandas.read\_csv
 
-The PARSE function allows for all of the functionality for Pandas. This is a powerful toolset that should handle many of the cases for differences in the CSV file format. For more information, refer tof you do not have remote\_delete\_files enabled, you need to keep all files in the completed folder so that FTX knows which ones have already been processed.
+The PARSE function allows for all of the functionality for Pandas. This is a powerful toolset that should handle many of the cases of differences in the CSV file format. For more information, refer tof you do not have remote\_delete\_files enabled, you need to keep all files in the completed folder so that FTX knows which ones have already been processed.
 
 If you have remote\_delete\_files enabled, you can rotate files using a tool such as Logrotate:
 
