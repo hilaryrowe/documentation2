@@ -22,7 +22,7 @@ To build a data extraction pipeline, FactoryTX:
 
     * For archival data sources \(historians, databases, etc.\) that can handle multiple messages, polling is more about the tradeoff between latency \(i.e., how much time it takes for a packet of data to get from one designated point to another\) vs. efficiency \(i.e., moving the highest possible volume of data through the network\).
 
-  * **Microbatching:** While basic message queuing sends each piece of data individually, FactoryTX can employ microbatching \(a specific count or time interval of messages together\). This methodology that allows for tradeoffs of latency vs. efficiency. When working with highly redundant manufacturing data, the messages can be compressed through the microbatching process and use less bandwidth and fewer resources.
+  * **Microbatching:** While basic message queuing sends each piece of data individually, FactoryTX can employ microbatching \(a specific count or time interval of messages together\). This methodology allows for tradeoffs of latency vs. efficiency. When working with highly redundant manufacturing data, the messages can be compressed through the microbatching process and use less bandwidth and fewer resources.
 
   * **Store and forward:** In the store and forward data transmission method, a device receives a complete message and temporarily stores it in a buffer before forwarding it to the final destination. This is useful in locations with network connectivity issues.
 
