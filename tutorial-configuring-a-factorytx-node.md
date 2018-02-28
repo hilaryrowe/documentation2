@@ -38,7 +38,7 @@ In each case, you should be able to access the data that you want to use Factory
 
 When you open the FactoryTX tool for the first time, the skeleton of the source code will be available. You will need to fill in the missing parameters for the new data receiver.
 
-**To create a new data receiver in the FT configuration file:**
+**To create a new data receiver in the FTX configuration file:**
 
 1. In a Web browser, navigate to the IP address of the NUC device or Virtual Machine. This information is available in the Resin.io interface. You want to connect to port 8090. For example: [http://IP\_ADDRESS:8090](http://IP_ADDRESS:8090)
 
@@ -67,9 +67,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:                      
+   **Condensed:                        
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:                      
+   Expanded:                        
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
