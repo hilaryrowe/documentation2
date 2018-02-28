@@ -14,7 +14,7 @@ After you [deploy Factory TX](/tutorial-deploying-factorytx.md), you can set up 
 
 Before you can pull data from a data source, you need to look at the machine and gather some information, including which protocol is being used \(file-based, SQL, OPC UA, etc.\) and the machine/asset name.
 
-Before you can configure FactoryTX, make sure to test each data source to which you want to connect. You may need to use different software applications for each source. For example, the following is a list of free tools that you can use:
+Before you can configure FactoryTX, make sure to test each data source to which you want to connect. You may need to use different software applications for each source. The following is a list of free tools that you can use:
 
 * For FTP, use FileZilla: [https://filezilla-project.org/](https://filezilla-project.org/)
 
@@ -32,7 +32,7 @@ Before you can configure FactoryTX, make sure to test each data source to which 
 
 * List of fields/tags/files that you want to retrieve
 
-In each case, you should be able to access the data that you want to use FactoryTX to transmit to Sight Machine before configuring each Data Receiver. This will make the connection process as straightforward as possible.
+In each case, you should be able to access the data that you want to use FactoryTX to transmit to Sight Machine before configuring each data receiver. This will make the connection process as straightforward as possible.
 
 ## Creating a New Data Receiver in the FTX Configuration File
 
@@ -67,9 +67,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:                    
+   **Condensed:                      
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:                    
+   Expanded:                      
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
