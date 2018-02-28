@@ -63,38 +63,38 @@ You must set up the transmit information for the particular customer so the data
 
    * **FactoryTX Username**
 
-   * **FactoryTX API Key  
+   * **FactoryTX API Key    
      **![](/configurations-in-factorytx/Copying FTX API Credentials w Lines.png)
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:                              
+   **Condensed:                                
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:                              
+   Expanded:                                
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
    `"data_transmit" = [`
 
-   `{`
+     `    {`
 
-   `"API_key_ID": "factory_5a676700398221437bce4cc337@sightmachine_ftx.com",`
+     `         "API_key_ID": "factory_5a676700398221437bce4cc337@sightmachine_ftx.com",`
 
-   `"max_request_records": "3000",`
+     `         "max_request_records": "3000",`
 
-   `"poll_interval": "30",`
+   `         "poll_interval": "30",`
 
-   `"base_url": "https://demo.sightmachine.io",`
+   `         "base_url": "https://demo.sightmachine.io",`
 
-   `"timeout": "120",`
+   `         "timeout": "120",`
 
-   `"max_request_size_bytes": "6000000",`
+   `         "max_request_size_bytes": "6000000",`
 
-   `"API_key": "BwH6AxSKqibgUbSK26-oODVKHM09K0sQIZ5JPoe8YRQ",`
+   `         "API_key": "BwH6AxSKqibgUbSK26-oODVKHM09K0sQIZ5JPoe8YRQ",`
 
-   `"transmit_name": "remotedatapost"`
+   `         "transmit_name": "remotedatapost"`
 
-   `}`
+     `    }`
 
    `]`
 
