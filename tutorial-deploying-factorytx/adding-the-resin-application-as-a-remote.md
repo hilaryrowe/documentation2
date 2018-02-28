@@ -1,4 +1,4 @@
-`# `Adding the Resin Application as a Remote
+# Adding the Resin Application as a Remote
 
 You need to add the Resin application as a remote inside your deployment Git repository.
 
@@ -12,12 +12,14 @@ You need to add the Resin application as a remote inside your deployment Git rep
    **`git remote add resin <your Resin user name>@git.resin.io:<your Resin user name>/<your Resin application name>.git`**
 
 3. To check if you did this correctly, you can list your remotes:  
-   **`± % git remote -v origin git@github.com:sightmachine/factorytx2.git (fetch)    `**`  
-   `**`origin git@github.com:sightmachine/factorytx2.git (push)    `**`  
-   `**`resin <your Resin name>@git.resin.io:<your Resin name>/<your Resin application name>.git (fetch)    `**`  
-   `**`resin <your Resin name>@git.resin.io:<your Resin name>/<your Resin application name>.git (push)`**
+   **`± % git remote -v origin git@github.com:sightmachine/factorytx2.git (fetch)`**
+   **`origin git@github.com:sightmachine/factorytx2.git (push)`**
+   **`resin <your Resin name>@git.resin.io:<your Resin name>/<your Resin application name>.git (fetch)`**
+   **`resin <your Resin name>@git.resin.io:<your Resin name>/<your Resin application name>.git (push)`**
 
-   **NOTE: **This effectively means you can push code to two different remote locations: origin, which is the GitHub repository for committing changes back to Sight Machine, or "resin," which will execute a build pipeline and automatically update all the devices in that application with the new software.
+
+
+   **NOTE: **This effectively means you can push code to two different remote locations: **origin**, which is the GitHub repository for committing changes back to Sight Machine, or **resin**, which will execute a build pipeline and automatically update all the devices in that application with the new software.
 
 
 
