@@ -10,8 +10,6 @@ After you [deploy Factory TX](/tutorial-deploying-factorytx.md), you can set up 
 
 * Creating a new transmit with an API key
 
-* Verifying the configuration in the Sight Machine interface and deploying
-
 ## Connecting to a Data Source {#docs-internal-guid-e2b35c38-6c14-7e9c-89d9-e5d535287fba}
 
 Before you can pull data from a data source, you need to look at the machine and gather some information, including which protocol is being used \(file-based, SQL, OPC UA, etc.\) and the machine/asset name.
@@ -69,9 +67,9 @@ You must set up the transmit information for the particular customer to the data
 
 2. In FTX, on the Configuration tab, in the Source Code window, open the data\_transmit section.  
    **HINT: **You can expand any condensed code section by clicking the arrow to the left of it.  
-   **Condensed:                  
+   **Condensed:                    
    **![](/images/UI Config Code Condensed w Lines.png)**  
-   Expanded:                  
+   Expanded:                    
    **![](/images/UI Config Code Expanded w Lines.png)
 
 3. Paste the FactoryTX Username into API\_key\_ID parameter, and the FactoryTX API Key into the API\_key parameter. The following is sample code that you can copy and paste:  
