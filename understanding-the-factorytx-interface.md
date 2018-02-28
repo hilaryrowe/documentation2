@@ -16,7 +16,7 @@ The Configuration section of FactoryTX allows you to view the FTX configuration 
 
 ![](/images/UI Full Configuration Screen w Lines.png)
 
-On the Configuration screen, you can also do the following:
+On the Configuration screen, you can do the following:
 
 * Stop and start services as necessary.  
   ![](/images/UI Config Started w Lines.png)  
@@ -37,8 +37,8 @@ On the Configuration screen, you can also do the following:
 
 * If you have any errors, indicators will appear on the screen.  
   ![](/images/UI Config Errors w Lines.png)  
-  Click the error message link to open the error console, which lists all errors currently in the code.  
-  
+  Click the error message link to open the error console, which lists all errors currently in the code.
+
   **NOTE: **You cannot Submit code changes until you clear all errors. The console will provide the details you need to resolve them.  
   ![](/images/UI Config Error Console w Lines.png)
 
