@@ -1,6 +1,6 @@
 # Overview: Building Data Extraction Pipelines
 
-Releasing data from factory environments is required for Sight Machine to deliver distinctive data modeling and analysis. FactoryTX \(or FTX, where TX stands for “Transmit”\) is Sight Machine's data acquisition product, a continuous, automatic tool that extracts data from edge devices or machines of origin and efficiently imports it into the Sight Machine platform. Typically, FTX runs on an edge device on the factory floor, collecting data from a variety of sources in real time, conditioning the data, transmitting it into the Sight Machine platform.
+Releasing data from factory environments is required for Sight Machine to deliver distinctive data modeling and analysis. FactoryTX \(or FTX, where TX stands for “Transmit”\) is Sight Machine's data acquisition product, a continuous, automatic tool that extracts data from edge devices or machines of origin and efficiently imports it into the Sight Machine platform. Typically, FTX runs on an edge device on the factory floor, collecting data from a variety of sources in real time, conditioning the data, and then transmitting it into the Sight Machine platform.
 
 **FactoryTX Process**
 
