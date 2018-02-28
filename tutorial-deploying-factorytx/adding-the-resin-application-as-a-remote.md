@@ -1,4 +1,4 @@
-# Adding the Resin Application as a Remote
+`# `Adding the Resin Application as a Remote
 
 You need to add the Resin application as a remote inside your deployment Git repository.
 
