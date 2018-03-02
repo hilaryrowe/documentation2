@@ -30,7 +30,7 @@ To build a data extraction pipeline, FactoryTX:
 
 * Performs basic transforms on the data using Python Pandas. \(A transform is the manipulation of data inside FactoryTX’s built-in data pipeline.\)
 
-This guide is a field manual that provides Sight Machine partners with the basic knowledge needed to install and implement FactoryTX for the customer. You do not need to be a full-time data engineer to follow the instructions this guide.
+This guide is a field manual that provides Sight Machine partners and customers with the basic knowledge needed to install and implement FactoryTX. You do not need to be a full-time data engineer to follow the instructions this guide.
 
 FactoryTX is also extensible and developers can write new plugins that will allow it to connect to different data sources. For more information about plugins or assistance with the customer’s FactoryTX implementation, please contact your Sight Machine sales partner.
 
