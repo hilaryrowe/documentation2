@@ -1,4 +1,4 @@
-# Configuration File Structure
+# Overview of the Configuration File Structure
 
 There are three sections of a FactoryTX configuration file:
 
