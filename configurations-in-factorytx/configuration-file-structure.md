@@ -9,7 +9,7 @@ There are three sections of a FactoryTX configuration file:
 
 * **Data Transmit: **This section sends the data to a cloud environment, or forwards it to another edge device.
 
-## Data Receiver
+## Data Receiver Section
 
 Every data receiver will have the following keys:
 
@@ -33,7 +33,7 @@ Each data receiver may have additional requirements, depending on its protocol. 
 
 * Configuring a File-Based Plugin
 
-## Transforms
+## Transforms Section
 
 FactoryTX currently only supports the set\_timestamp transform, which you can use as-is or adjust slightly. If the data has multiple timestamps or date/time fields, this transform helps you identify which one will be used in the data modeling later.
 
@@ -57,13 +57,13 @@ Place each stream in quotation marks, using a colon to separate the asset and th
 
 ![](/configurations-in-factorytx/Stream Filter Table.png)
 
-### Data Transmit {#docs-internal-guid-f6e88102-6786-79b0-7465-91ec562dd85d}
+## Data Transmit Section
 
 Typically, you will want to configure the transmit to send data to a Sight Machine cloud environment. In that case, these are the required keys:
 
 ![](/configurations-in-factorytx/Data Transmit Table.png)
 
-#### Copying FTX API Credentials {#docs-internal-guid-f6e88102-6786-ba2b-a6eb-488ab845b77a}
+### Copying FTX API Credentials
 
 To access the API keys in the AI Data Pipeline, go to **Models** &gt; **Location**, and then under **FactoryTX API Credentials**, copy both of the following:
 
